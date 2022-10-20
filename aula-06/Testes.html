@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        body h1 {
+            color: deepskyblue;
+            font: 20pt sans-serif;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Realizando testes com JS após ver vídeo aulas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, cupiditate asperiores explicabo rem veniam perferendis minima esse omnis ratione vel.</p>
+
+    <script>
+        var nome =  window.prompt("Digite seu nome: ")
+        window.alert(`Olá ${nome}, vamos iniciar nossos testes`)
+        var num1 = Number(window.prompt("Digite o primeiro número: "))
+        var num2 = Number(window.prompt("Digite o segundo número: "))
+
+        document.write(`<strong>${nome.toUpperCase()}</strong>, aqui estão os das operações matemáticas referentes a estes números: <br/>`)
+        document.write(` ${num1} + ${num2} = ${num1+num2} <br>`)
+        document.write(` ${num1} - ${num2} = ${num1-num2}<br>`)
+        document.write(` ${num1} * ${num2} = ${num1*num2}<br>`)
+        document.write(` ${num1} / ${num2} = ${num1/num2}<br>`)
+        document.write(` ${num1} % ${num2} = ${num1%num2}<br>`)
+        document.write(` ${num1} ** ${num2} = ${num1**num2}<br>`)
+
+
+
+
+        </script>
+
+</body>
+</html>

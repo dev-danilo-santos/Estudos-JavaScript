@@ -1,0 +1,47 @@
+#area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    color: blue;
+    font: normal 20pt arial;
+    transition: 0.5s;
+    border-radius: 20%;
+}
+
+.teste {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    min-width: 500px;
+    overflow: visible;
+}
+
+.teste img {
+    transition: 0.9s;
+    width: 200px;
+    height: 200px;
+    max-width: 250px;
+    max-height: 350px;
+    border-radius: 20%;
+}
+.teste p {
+    width: 200px;
+    max-width: 250px;
+    max-height: 350px;
+    text-align: justify;
+}
+
+.teste:hover img {
+    transform: scale(1.6) rotate(360deg);
+    width: 400px;
+    height: 600px;
+    border-radius: 5%;
+}
