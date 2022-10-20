@@ -1,0 +1,26 @@
+body {
+    font: normal 16pt arial;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.boxPai {
+    padding: 20px;
+    border-style: groove;
+    border-color: rgba(70, 70, 238, 0.247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+#txtname {
+    
+}
