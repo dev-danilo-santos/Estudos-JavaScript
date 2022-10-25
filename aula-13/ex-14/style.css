@@ -44,11 +44,17 @@ section {
     
 }
 
+footer {
+    width: 100%;
+}
+
 footer .rodape {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-style: italic;
-    
+    overflow: hidden;
 }
 
 .rodape img {
@@ -58,4 +64,20 @@ footer .rodape {
     min-height: 30px;
     max-width: 60px;
     max-height: 60px;
+    transition: 0.9s;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
 }
+
+.rodape a {
+    margin-top: 20px;
+    overflow: visible;
+    }
+
+.rodape:hover img {
+    margin: 10px;
+    transform: scale(1.6) rotate(360deg);
+    filter: invert(100%);
+}
+
